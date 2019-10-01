@@ -372,7 +372,7 @@ RCT_EXPORT_METHOD(openPicker:(NSDictionary *)options
                     imagePickerController.mediaType = QBImagePickerMediaTypeAny;
                 }
             }
-
+            
             [[self getRootVC] presentViewController:imagePickerController animated:YES completion:nil];
         });
     }];
